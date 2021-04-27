@@ -1,7 +1,6 @@
 const path = require('path');
 
 module.exports = {
-  pathPrefix: "/pnshafa-website",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -63,4 +62,5 @@ module.exports = {
       },
     },
   ],
+  pathPrefix: "/pnshafa-website",
 };
