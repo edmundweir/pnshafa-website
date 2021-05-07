@@ -123,7 +123,7 @@ const StyledExternalLink = styled(ExternalLink)`
 `;
 
 function scrollToAbout() {
-  var elmnt = document.getElementById("about");
+  var elmnt = document.getElementById("blurb");
 
   elmnt.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"}); // Top
 }
