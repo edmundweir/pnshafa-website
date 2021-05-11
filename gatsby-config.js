@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  pathPrefix: "/pnshafa-website",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -33,8 +34,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Absurd`,
-        short_name: `absurd`,
+        name: `P.N. Shafa`,
+        short_name: `pnshafa`,
         start_url: `/`,
         background_color: `#8bd8ed`,
         theme_color: `#8bd8ed`,
@@ -62,5 +63,4 @@ module.exports = {
       },
     },
   ],
-  pathPrefix: "/pnshafa-website",
 };
