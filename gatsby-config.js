@@ -7,6 +7,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-svgr`,
       options: {
+        rule: {
+          include: '/svg/'
+        },
         svgoConfig: {
           plugins: {
             removeViewBox: false,
