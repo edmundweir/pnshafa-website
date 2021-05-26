@@ -12,15 +12,17 @@ const SignUp = () => (
     <img className='background-image' src={Background} alt='No Image' />
     <Wrapper>      
         <Container>
-            <h1>Hi from the sign-up page!</h1>
-            <p>Welcome, human!</p>
+        <div class="ml-form-embed"
+        data-account="2495824:w5x8z5w2r4"
+        data-form="4161409:e2t7b0">
+        </div>
         </Container>
     </Wrapper>
   </Layout>
 );
 
 const Wrapper = styled.header`
-margin-top: 40vh;
+margin-top: 25vh;
 background-color: ${props => props.theme.color.primary};
   padding-top: 70px;
   padding-bottom: 70px;
